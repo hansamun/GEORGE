@@ -41,16 +41,20 @@ export default function HomePage() {
               ABOUT
             </a>
             <a
-              href="#cta"
+              href="https://x.com/georgeonbase_"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-black font-heading font-semibold text-lg hover:text-gray-600 transition-colors"
             >
-              JOIN
+              X
             </a>
             <a
-              href="#contact"
+              href="https://t.me/basedgeorges"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-black font-heading font-semibold text-lg hover:text-gray-600 transition-colors"
             >
-              CONTACT
+              TELEGRAM
             </a>
           </nav>
 
@@ -149,11 +153,21 @@ export default function HomePage() {
           </h2>
 
           <div className="flex flex-col gap-4 sm:gap-6 sm:flex-row justify-center items-center mb-8 sm:mb-12 max-w-4xl mx-auto">
-            <Button className="bg-black text-white px-8 sm:px-12 py-3 sm:py-4 rounded-full text-lg sm:text-xl font-heading font-bold hover:bg-gray-800 transform hover:scale-105 transition-all duration-300 w-full sm:w-auto fade-in-left stagger-1">
-              JOIN (X)
+            <Button
+              asChild
+              className="bg-black text-white px-8 sm:px-12 py-3 sm:py-4 rounded-full text-lg sm:text-xl font-heading font-bold hover:bg-gray-800 transform hover:scale-105 transition-all duration-300 w-full sm:w-auto fade-in-left stagger-1"
+            >
+              <a href="https://x.com/georgeonbase_" target="_blank" rel="noopener noreferrer">
+                JOIN (X)
+              </a>
             </Button>
-            <Button className="bg-black text-white px-8 sm:px-12 py-3 sm:py-4 rounded-full text-lg sm:text-xl font-heading font-bold hover:bg-gray-800 transform hover:scale-105 transition-all duration-300 w-full sm:w-auto fade-in-up stagger-2">
-              JOIN (TELEGRAM)
+            <Button
+              asChild
+              className="bg-black text-white px-8 sm:px-12 py-3 sm:py-4 rounded-full text-lg sm:text-xl font-heading font-bold hover:bg-gray-800 transform hover:scale-105 transition-all duration-300 w-full sm:w-auto fade-in-up stagger-2"
+            >
+              <a href="https://t.me/basedgeorges" target="_blank" rel="noopener noreferrer">
+                JOIN (TELEGRAM)
+              </a>
             </Button>
             <Button className="bg-black text-white px-8 sm:px-12 py-3 sm:py-4 rounded-full text-lg sm:text-xl font-heading font-bold hover:bg-gray-800 transform hover:scale-105 transition-all duration-300 w-full sm:w-auto fade-in-right stagger-3">
               BUY ON APE.STORE

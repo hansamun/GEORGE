@@ -16,6 +16,11 @@ export function MobileNav() {
     }
   }
 
+  const handleExternalLink = (url: string) => {
+    setIsOpen(false)
+    window.open(url, "_blank", "noopener,noreferrer")
+  }
+
   return (
     <div className="md:hidden">
       <Button variant="ghost" size="icon" onClick={() => setIsOpen(!isOpen)} className="text-black hover:bg-gray-100">
@@ -32,16 +37,16 @@ export function MobileNav() {
               ABOUT
             </button>
             <button
-              onClick={() => handleNavClick("#cta")}
+              onClick={() => handleExternalLink("https://x.com/georgeonbase_")}
               className="text-black font-heading font-semibold text-lg hover:text-gray-600 transition-colors py-2 text-left"
             >
-              JOIN
+              X
             </button>
             <button
-              onClick={() => handleNavClick("#contact")}
+              onClick={() => handleExternalLink("https://t.me/basedgeorges")}
               className="text-black font-heading font-semibold text-lg hover:text-gray-600 transition-colors py-2 text-left"
             >
-              CONTACT
+              TELEGRAM
             </button>
             <Button className="bg-black text-white px-8 py-2 rounded-full font-heading font-bold hover:bg-gray-800 mt-4">
               BUY NOW
