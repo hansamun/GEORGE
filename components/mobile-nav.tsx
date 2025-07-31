@@ -48,7 +48,10 @@ export function MobileNav() {
             >
               TELEGRAM
             </button>
-            <Button className="bg-black text-white px-8 py-2 rounded-full font-heading font-bold hover:bg-gray-800 mt-4">
+            <Button
+              onClick={() => handleExternalLink("https://ape.store/base/0x2bff9a282fd122a6ab4cfa3b577a48657be096fe")}
+              className="bg-black text-white px-8 py-2 rounded-full font-heading font-bold hover:bg-gray-800 mt-4"
+            >
               BUY NOW
             </Button>
           </nav>

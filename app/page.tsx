@@ -59,8 +59,17 @@ export default function HomePage() {
           </nav>
 
           {/* Desktop Buy Button */}
-          <Button className="hidden md:block bg-black text-white px-8 py-2 rounded-full font-heading font-bold hover:bg-gray-800">
-            BUY NOW
+          <Button
+            asChild
+            className="hidden md:block bg-black text-white px-8 py-2 rounded-full font-heading font-bold hover:bg-gray-800"
+          >
+            <a
+              href="https://ape.store/base/0x2bff9a282fd122a6ab4cfa3b577a48657be096fe"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              BUY NOW
+            </a>
           </Button>
 
           {/* Mobile Navigation */}
@@ -169,14 +178,23 @@ export default function HomePage() {
                 JOIN (TELEGRAM)
               </a>
             </Button>
-            <Button className="bg-black text-white px-8 sm:px-12 py-3 sm:py-4 rounded-full text-lg sm:text-xl font-heading font-bold hover:bg-gray-800 transform hover:scale-105 transition-all duration-300 w-full sm:w-auto fade-in-right stagger-3">
-              BUY ON (APE STORE)
+            <Button
+              asChild
+              className="bg-black text-white px-8 sm:px-12 py-3 sm:py-4 rounded-full text-lg sm:text-xl font-heading font-bold hover:bg-gray-800 transform hover:scale-105 transition-all duration-300 w-full sm:w-auto fade-in-right stagger-3"
+            >
+              <a
+                href="https://ape.store/base/0x2bff9a282fd122a6ab4cfa3b577a48657be096fe"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                BUY ON (APE STORE)
+              </a>
             </Button>
           </div>
 
           <div className="bg-gray-100/95 backdrop-blur-sm rounded-lg p-4 sm:p-6 max-w-4xl mx-auto border border-gray-200 fade-in-up stagger-4">
             <p className="text-gray-800 font-mono text-sm sm:text-lg md:text-xl font-body font-semibold break-all">
-              CONTRACT ADDRESS: COMING SOON
+              CONTRACT ADDRESS: 0x2bff9a282fd122a6ab4cfa3b577a48657be096fe
             </p>
           </div>
         </section>
