@@ -16,8 +16,13 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "George's Coin - Memorial Meme Token",
+  title: "Based George's - Memorial Meme Token",
   description: "A commemorative token honoring Georgie Boy the beloved TikTok monkey",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
+  },
     generator: 'v0.dev'
 }
 
@@ -28,6 +33,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/favicon.ico" />
+      </head>
       <body className={`${fredoka.variable} ${inter.variable} font-body antialiased`}>{children}</body>
     </html>
   )
