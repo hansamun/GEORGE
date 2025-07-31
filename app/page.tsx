@@ -170,7 +170,7 @@ export default function HomePage() {
               </a>
             </Button>
             <Button className="bg-black text-white px-8 sm:px-12 py-3 sm:py-4 rounded-full text-lg sm:text-xl font-heading font-bold hover:bg-gray-800 transform hover:scale-105 transition-all duration-300 w-full sm:w-auto fade-in-right stagger-3">
-              BUY ON APE.STORE
+              BUY ON (APE STORE)
             </Button>
           </div>
 
