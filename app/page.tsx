@@ -139,9 +139,9 @@ export default function HomePage() {
 
             <p className="font-medium text-gray-800 fade-in-up stagger-4">
               Now, for the anniversary of George's passing, the family are planning a commemorative 'Based George's'
-              token which will be coming to the Solana blockchain to raise awareness, and raise money for charity. The
-              family also are in the process of relaunching their 17 million follower TikTok account with brand new
-              content of George's family. So together, we can keep George's memory alive forever.
+              token which will be coming to the Base network to raise awareness and keep his memory alive. The family
+              also are in the process of relaunching their 17 million follower TikTok account with brand new content of
+              George's family. So together, we can keep George's memory alive forever.
             </p>
           </div>
         </section>
